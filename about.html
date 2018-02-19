@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>The RedRice Project | The Rice Of The Future</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div class = "header">
+			<h3 class = "left button" onclick = "openNav()">&#9776;</h3>
+			<img class = "right logo" src = "images/RedRiceLogo.png">
+			<p class = "clear"></p>
+		</div>
+		
+		<div id = "navigation" class = "navigation white sticky">
+			<div id = "menuPadding">
+				<h2 class = "button" onclick = "closeNav()">&times;</h2>
+				<h3>The RedRice Project</h3>
+				<hr>
+			</div>
+			<a class = "clear" href = "index.html">Home</a>
+			<a href = "about.html">About RedRice</a>
+			<a href = "science.html">The Science</a>
+			<a href = "whyRedRice.html">Why RedRice?</a>
+		</div>
+		
+		<div class = "splash">
+			<div class = "red splashInside">
+				<h1>About RedRice</h1>
+			</div>
+		</div>
+		
+		<div class = "container raised red">
+			<h3>Iron And Vitamin B12</h3>
+			<p>These are the two biggest deficiencies in people all around the world, which can cause major Anemia. If we can supplement these to people who need it, we can save millions.</p>
+			<hr>
+			<h3>How is RedRice Created?</h3>
+			<p>RedRice is a genetically modified organism. To create Vitamin B12 and Leghemoglobin, the easiest digestible form of Iron, the rice takes genes from soybeans and Pseudomonas Aeruginosa, a bacteria.We can isolate the genes required to produce Vitamin b12 and leghemoglobin and introduce them to rice, creating a crop whose seeds can be sold commercially worldwide to countless farmers in areas around the world. For the most at-risk populations, partnership with charitable relief organizations such as the International Committee of the Red Cross can allow road convoys or airdrops of bags of the crop can be employed. We are confident that the product will treat iron deficiency in the world’s rural poor as well as vegetarians who do not obtain necessary quantities of iron as they do not consume meats.</p>
+			<a class = "mainButton" href = "science.html">The Science Behind RedRice</a>
+		</div>
+		<br>
+		
+		<footer>
+			<img class = "footerpart left logo" src = "images/RedRiceLogo.png">
+			<div class = "footerpart left">
+				<a href = "index.html">Home</a>
+				<a href = "about.html">About</a>
+			</div>
+			<div class = "footerpart left">
+				<a href = "science.html">The Science</a>
+				<a href = "whyRedRice.html"> Why RedRice?</a>
+			</div>
+			<div class = "clear">
+				<h6>&copy; Copyright 2018. All rights reserved.</h6>
+			</div>
+		</footer>
+		
+		
+		<script>
+			function openNav() {
+				document.getElementById("navigation").style.left = "0";
+			}
+			function closeNav() {
+				document.getElementById("navigation").style.left = "-100%";
+			}
+		</script>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>The RedRice Project | The Rice Of The Future</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div class = "header">
+			<h3 class = "left button" onclick = "openNav()">&#9776;</h3>
+			<img class = "right logo" src = "images/RedRiceLogo.png">
+			<p class = "clear"></p>
+		</div>
+		
+		<div id = "navigation" class = "navigation white sticky">
+			<div id = "menuPadding">
+				<h2 class = "button" onclick = "closeNav()">&times;</h2>
+				<h3>The RedRice Project</h3>
+				<hr>
+			</div>
+			<a class = "clear" href = "index.html">Home</a>
+			<a href = "about.html">About RedRice</a>
+			<a href = "science.html">The Science</a>
+			<a href = "whyRedRice.html">Why RedRice?</a>
+		</div>
+		
+		<div class = "splash">
+			<div class = "red splashInside">
+				<h1>The RedRice Project</h1>
+				<h2>The Crop Fighting Against Anemia</h2>
+			</div>
+		</div>
+		
+		<div class = "container raised red">
+			<h3>Two Billion People Suffer From Anemia</h3>
+			<p>A lack of sufficient red blood cells and reduced capacity to deliver oxygen to body organs. That is the experience two billion people face in the world today. Something needs to be done to stop this epidemic.</p>
+			<hr>
+			<h3>Iron Deficiency is the Primary Cause of Anemia</h3>
+			<p>While many foods are Iron rich, they are not mass marketable and easy to produce in lower income societies. To reduce the anemia in the world, a new crop is needed, one that is both easy to mass produce and rich in iron.</p>
+		</div>
+		
+		<div class = "container white">
+			<h2>RedRice is the Solution</h2>
+			<hr>
+			<p>RedRice is a genetically modified rice plant, that is rich in iron and Micronutrients, which can help solve the Anemia crisis. Leghemoglobin, a form of hemoglobin that is similar to that found in meats, can be found in soybeans which provide the ability to modify rice in a beneficial way. This modified rice, red in color and easily digestible, can be distributed in areas-in-need to alleviate this pressing issue.</p>
+			<hr>
+			<h3>RedRice can reduce the victims of Anemia and save lives...</h3>
+			<a class = "mainButton" href = "about.html">More about RedRice</a>
+		</div>
+		
+		<footer>
+			<img class = "footerpart left logo" src = "images/RedRiceLogo.png">
+			<div class = "footerpart left">
+				<a href = "index.html">Home</a>
+				<a href = "about.html">About</a>
+			</div>
+			<div class = "footerpart left">
+				<a href = "science.html">The Science</a>
+				<a href = "whyRedRice.html"> Why RedRice?</a>
+			</div>
+			<div class = "clear">
+				<h6>&copy; Copyright 2018. All rights reserved.</h6>
+			</div>
+		</footer>
+		
+		
+		<script>
+			function openNav() {
+				document.getElementById("navigation").style.left = "0";
+			}
+			function closeNav() {
+				document.getElementById("navigation").style.left = "-100%";
+			}
+		</script>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>The RedRice Project | The Rice Of The Future</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div class = "header">
+			<h3 class = "left button" onclick = "openNav()">&#9776;</h3>
+			<img class = "right logo" src = "images/RedRiceLogo.png">
+			<p class = "clear"></p>
+		</div>
+		
+		<div id = "navigation" class = "navigation white sticky">
+			<div id = "menuPadding">
+				<h2 class = "button" onclick = "closeNav()">&times;</h2>
+				<h3>The RedRice Project</h3>
+				<hr>
+			</div>
+			<a class = "clear" href = "index.html">Home</a>
+			<a href = "about.html">About RedRice</a>
+			<a href = "science.html">The Science</a>
+			<a href = "whyRedRice.html">Why RedRice?</a>
+		</div>
+		
+		<div class = "splash">
+			<div class = "red splashInside">
+				<h2>Why RedRice?</h2>
+			</div>
+		</div>
+		
+		<div class = "container raised white">
+			<p>Not only is RedRice a very healthy way to add iron and vitamin b12 into your diet, but it is also largely harmless. This is because the only difference between RedRice and your normal everyday rice is the addition of iron and vitamin b12. This means that the only potential risk is iron overdose. This is hardly a concern because the amount of iron needed to be consumed to see these symptoms are much higher than an average daily intake of rice. The recommended daily intake of iron is approximately 7 mg and RedRice will be able to provide to that need.</p>
+			<p>RedRice will help support many in need of jobs. 78% of the world’s poor live in rural areas and work in agriculture. The cultivation of the is pioneering new crop can help such rural farmers to sell their more valuable crop at higher prices and will be a key contributor in the fight against world poverty. We aspire to have minimal costs for the RedRice seed and allow such rural farmers to cultivate the crop after an initial purchase.</p>
+		</div>
+		<br>
+		
+		<footer>
+			<img class = "footerpart left logo" src = "images/RedRiceLogo.png">
+			<div class = "footerpart left">
+				<a href = "index.html">Home</a>
+				<a href = "about.html">About</a>
+			</div>
+			<div class = "footerpart left">
+				<a href = "science.html">The Science</a>
+				<a href = "whyRedRice.html"> Why RedRice?</a>
+			</div>
+			<div class = "clear">
+				<h6>&copy; Copyright 2018. All rights reserved.</h6>
+			</div>
+		</footer>
+		
+		
+		<script>
+			function openNav() {
+				document.getElementById("navigation").style.left = "0";
+			}
+			function closeNav() {
+				document.getElementById("navigation").style.left = "-100%";
+			}
+		</script>
+		
+	</body>
+	
+</html>

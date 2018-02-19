@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>The RedRice Project | The Rice Of The Future</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div class = "header">
+			<h3 class = "left button" onclick = "openNav()">&#9776;</h3>
+			<img class = "right logo" src = "images/RedRiceLogo.png">
+			<p class = "clear"></p>
+		</div>
+		
+		<div id = "navigation" class = "navigation white sticky">
+			<div id = "menuPadding">
+				<h2 class = "button" onclick = "closeNav()">&times;</h2>
+				<h3>The RedRice Project</h3>
+				<hr>
+			</div>
+			<a class = "clear" href = "index.html">Home</a>
+			<a href = "about.html">About RedRice</a>
+			<a href = "science.html">The Science</a>
+			<a href = "whyRedRice.html">Why RedRice?</a>
+		</div>
+		
+		<div class = "splash">
+			<div class = "red splashInside">
+				<h2>The Science Behind<br><strong>RedRice</strong></h2>
+			</div>
+		</div>
+		
+		<div class = "container raised white">
+			<p>Transformation is the process by which genetic code, or DNA, from one organism is transferred to another. Through transformation, we can make rice express genes, or transcripts of DNA, and produce proteins, bodily molecules that are each designated for a particular purpose. This transfer of DNA can be accomplished in several ways.</p>
+			<p>Agrobacterium Tumefaciens, in its natural form, infects plant cells, transferring part of its genetic code in the process. A lab-ready, commercially available version of this bacteria can be equipped with a Ti plasmid, a circular section of DNA, which it will transfer to our rice cells. We can gain the sequences of DNA we want to transfer to the rice cells via two processes.</p>
+			<p>First, using restriction enzymes, or “genetic scissors,” we “cut” the genome of our sources of DNA, including soybeans and Pseudomonas Aeruginosa, at certain sites, so that the genes we want to include in our insert, or section of DNA we put in the Ti plasmid, have been cut free from the DNA of the soybeans and the bacteria.</p>
+			<p>Then, through a process called Polymerase Chain Reaction, or PCR, we replicate the sequences we desire until we have a sufficient amount. These replicated sequences can be inserted into the Ti plasmid when we “cut” the Ti plasmid with the same restriction enzymes we used earlier, making an opening where we can place our new sequence and then “paste” it in with an enzyme called DNA ligase.</p>
+			<p>To get the rice cells into the specific conditions where we can most easily produce the transformed rice cells, we must make them into protoplasts, or plant cells that lack cell walls. This is achieved by exposing the cells to a particular solution of pectinase and cellulase, which digest the cell wall, filtering the cells through cheesecloth, sterilizing them, and then centrifuging the product to isolate the cells.</p>
+		</div>
+		<br>
+		
+		<footer>
+			<img class = "footerpart left logo" src = "images/RedRiceLogo.png">
+			<div class = "footerpart left">
+				<a href = "index.html">Home</a>
+				<a href = "about.html">About</a>
+			</div>
+			<div class = "footerpart left">
+				<a href = "science.html">The Science</a>
+				<a href = "whyRedRice.html"> Why RedRice?</a>
+			</div>
+			<div class = "clear">
+				<h6>&copy; Copyright 2018. All rights reserved.</h6>
+			</div>
+		</footer>
+		
+		
+		<script>
+			function openNav() {
+				document.getElementById("navigation").style.left = "0";
+			}
+			function closeNav() {
+				document.getElementById("navigation").style.left = "-100%";
+			}
+		</script>
+		
+	</body>
+	
+</html>
