@@ -56,11 +56,16 @@
 		
 		
 		<script>
+		function noscroll() {
+  window.scrollTo( 0, 0 );
+}
 			function openNav() {
 				document.getElementById("navigation").style.left = "0";
+				window.addEventListener('scroll', noscroll);
 			}
 			function closeNav() {
 				document.getElementById("navigation").style.left = "-100%";
+				window.removeEventListener('scroll', noscroll);
 			}
 		</script>
 		
