@@ -1,0 +1,372 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.25;
+}
+h1, h2, h3, h4 {
+	font-family: "Oswald";
+}
+h1 {
+		font-size: 30px;
+		font-weight: 700;
+	}
+h2 {
+		font-size: 25px;
+		font-weight: 700;
+	}
+h3 {
+		font-size: 23px;
+		font-weight: 700;
+	}
+h4 {
+		font-size: 21px;
+		font-weight: 700;
+	}
+h5 {
+		font-size: 19px;
+		font-weight: 700;
+	}
+h6 {
+		font-size: 15px;
+	}
+p, .button, input, option, select, span {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+}
+h2, h3, h4, h5, h6 {
+	margin: 15px 0;
+}
+form {
+	margin: 10px;
+}
+input, select, option {
+	padding: 5px;
+	border: 1px solid #0A5B86;
+	border-radius: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+input {
+	display: block;
+	margin: 0 0 10px 0;
+}
+input.large-text {
+	height: 100px;
+	line-height: 100px;
+}
+select {
+	background-color: #0A5B86;
+	color: white;
+	border: 1px solid white;
+}
+option {
+	background-color: white;
+	color: black;
+}
+option:hover {
+	background-color: rgba(10, 91, 134, 0.5);
+}
+input[type = "submit"] {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 0;
+}
+input[type = "submit"]:hover {
+	cursor: pointer;
+}
+
+/*Navigation*/
+.nav {
+	box-shadow: 0 4px 5px -5px black;
+	background-color: #6D6E71;
+	padding: 0 150px;
+	position: sticky;
+	top: -1px;
+}
+.nav a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav a:hover {
+	background-color: #58585A;
+	cursor: pointer;
+}
+.dropdown {
+	display: inline-block;
+}
+.dropdown .content {
+	display: none;
+	position: absolute;
+	background-color: #3a3a3c;
+	color: #0A5B86;
+	max-width: 300px;
+	box-shadow: 1px 1px 5px black;
+}
+.dropdown .content a {
+	display: block;
+	color: white;
+	padding: 5px 10px;
+}
+.dropdown .content a:hover {
+	background-color: #3a3a3c;
+	color: #a0a0a0;
+}
+.dropdown:hover .content {
+	display: block;
+}
+
+/*Headers*/
+header {
+	padding: 50px 175px;
+	background-color: #d20000;
+	color: #303030;
+}
+header img {
+	background-color: white;
+	padding: 15px;
+}
+.header-fruit {
+	background-color: #d20000;
+	background-image: url("images/RedRiceSplash.png");
+	background-position: right center;
+	background-
+	color: #303030;
+	background-size: cover;
+}
+
+/*Main*/
+.container {
+	padding: 25px 175px;
+}
+.container-s {
+	padding: 25px 50px;
+}
+.container-image {
+	box-sizing: border-box;
+	border: 5px solid black;
+	background-color: white;
+}
+.button {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	transition: 0.25s;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.button:hover {
+	cursor: pointer;
+}
+.gray {
+	background-color: #58585a;
+	color: white;
+}
+.gray .button {
+	border: 1px solid #58585a;
+	color: black;
+}
+.gray .button:hover {
+	background-color: #d20000;
+	color: white;
+}
+.white {
+	background-color: white;
+	color: black;
+}
+.white .button {
+	border: 1px solid #d20000;
+	color: #d20000;
+}
+.white .button:hover {
+	background-color: #d20000;
+	color: white;
+}
+.red {
+	background-color: #d20000;
+	color: white;
+}
+.red .button {
+	border: 1px solid white;
+	color: white;
+}
+.red .button:hover {
+	background-color: white;
+	color: #d20000;
+}
+
+/*Footer*/
+footer {
+	border-top: 5px solid #d20000;
+	padding: 10px 175px;
+	background-color: #3a3a3c;
+	color: #d0d0d0;
+	text-align: center;
+}
+footer * {
+	line-height: 1;
+	margin: 20px 0;
+}
+footer .small {
+	font-size: 10px;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+footer a:hover {
+	color: #d20000;
+	cursor: pointer;
+}
+.footer-menu * {
+	margin: 20px;
+}
+
+/*Utilities*/
+.half {
+	width: 47.5%;
+	margin-right: 2.5%;
+}
+.third {
+	width: 31.5%;
+	margin-right: 1.5%;
+}
+.fourth {
+	width: 24%;
+	margin-right: 1%;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.mobile {
+	display: none !important;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 900px) {
+	header {
+		padding: 50px 75px;
+	}
+	.nav {
+		padding: 0 50px;
+	}
+	.nav a {
+		padding: 15px;
+	}
+	footer {
+		padding: 50px 75px;
+	}
+	.container {
+		padding: 15px 75px;
+	}
+	.container-s {
+		padding: 15px 40px;
+	}
+	.fourth {
+		width: 30%;
+		margin: 1.5%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.mobile {
+		display: initial !important;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 23px;
+	}
+	h4 {
+		font-size: 21px;
+	}
+	h5 {
+		font-size: 19px;
+	}
+	h6 {
+		font-size: 15px;
+	}
+	p, .button, input, option, select, span {
+	font-size: 16px;
+	}
+	header {
+		padding: 20px 50px;
+		text-align: center;
+	}
+	.nav {
+		padding: 0;
+		position: initial;
+	}
+	.nav a {
+		display: block;
+		padding: 10px 15px;
+	}
+	footer {
+		padding: 25px 15px;
+	}
+	.container {
+		padding: 15px 25px;
+	}
+	.container-s {
+		padding: 15px 15px;
+	}
+	.button {
+		display: block;
+		text-align: center;
+	}
+	header img {
+		background-color: white;
+		border: 2.5px solid #800000;
+	}
+	.nav a {
+		display: block !important;
+		float:none;
+		text-align: center;
+	}
+	.dropdown {
+		position: initial;
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+	.dropdown .content {
+		margin: 0;
+		display: block;
+		position: initial;
+		max-width: none;
+	}
+	.dropdown .content * {
+		font-size: 14px;
+	}
+	.half {
+		width: 97.5%;
+		margin-right: 2.5%;
+	}
+	.fourth {
+		width: 47.5%;
+		margin-right: 2.5%;
+	}
+	.desktop {
+		display: none;
+	}
+}
+@media screen and (max-width: 350px) {
+	header {
+		text-align: center;
+	}
+	.third, .fourth {
+		width: 75%;
+		margin: 2.5%;
+	}
+}
