@@ -125,7 +125,7 @@ header {
 	color: #303030;
 }
 header img {
-	background-color: white;
+	background-color: transparent;
 	padding: 15px;
 }
 .header-fruit {
