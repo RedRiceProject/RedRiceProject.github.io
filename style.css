@@ -121,7 +121,7 @@ input[type = "submit"]:hover {
 /*Headers*/
 header {
 	padding: 50px 175px;
-	background-color: #d20000;
+	background-color: white;
 	color: #303030;
 }
 header img {
